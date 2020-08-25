@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Image Search</title>
+        <link rel="stylesheet" href="style.css">
+        <style>
+            a{
+                font-size: 15px;
+                padding: 10px;
+                text-decoration: none;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="topright">
+            <a href="index.html">Search</a>
+            <a href="advanced.html">Advanced</a>
+        </div>
+        <div class="searchbar">
+            <img id="logo" src="googlogo.png">
+            <div class="subtext">
+                <span>images</span>
+            </div>
+            <form action="https://google.com/search">
+                <div class="searchbox">
+                    <img id="search" src='search.jpg' />
+                    <input type="text" name="q">
+                    <input type="hidden" name="tbm" value="isch" />
+                   
+                </div>
+                <div id="sub">
+                    <button class="buttons" type="submit">Search Image</button>
+                </div>
+                
+            </form>
+        </div>
+
+    </body>
+</html>
